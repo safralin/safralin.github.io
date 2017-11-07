@@ -1,10 +1,14 @@
-var input, button, greeting;
+var input, button, greeting, r, g, b;
 
 function setup() {
 
   // create canvas
-  createCanvas(710, 400);
-
+  createCanvas(1024, 768);
+  
+  r = random(255);
+  g = random(255);
+  b = random(255);
+    
   input = createInput();
   input.position(20, 65);
 
@@ -26,10 +30,19 @@ function greet() {
 
   for (var i=0; i<200; i++) {
     push();
-    fill(random(255), 255, 255);
+    stroke(r, g, b);
+    fill(r, g, b, 127);
     translate(random(width), random(height));
     rotate(random(2*PI));
     text(name, 0, 0);
     pop();
   }
 }
+
+function mousePressed() {
+    // Pick new random color values
+    r = random(255);
+    g = random(255);
+    b = random(255);
+}
+
