@@ -16,7 +16,7 @@ function setup() {
   button.position(input.x + input.width, 65);
   button.mousePressed(greet);
 
-  greeting = createElement('h2', 'what is you favorite radio station');
+  greeting = createElement('h2', 'What is your favorite color?');
   greeting.position(20, 5);
 
   textAlign(CENTER);
@@ -25,10 +25,10 @@ function setup() {
 
 function greet() {
   var name = input.value();
-  greeting.html('We love '+name+'too !');
+  greeting.html('No way I love '+name+' too !');
   input.value('');
 
-  for (var i=0; i<10; i++) {
+  for (var i=0; i<15; i++) {
     push();
     stroke(0,0,0);
     fill(r, g, b, 127);
