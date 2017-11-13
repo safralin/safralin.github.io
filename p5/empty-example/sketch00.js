@@ -1,9 +1,12 @@
-var input, button, greeting, r, g, b;
+var input, button, greeting, r, g, b, x, y;
 
 function setup() {
 
   // create canvas
   createCanvas(1024, 768);
+    
+  x = width / 2;
+  y = height;
   
   r = random(255);
   g = random(255);
@@ -16,16 +19,16 @@ function setup() {
   button.position(input.x + input.width, 65);
   button.mousePressed(greet);
 
-  greeting = createElement('h2', 'What is your favorite color?');
+  greeting = createElement('h1', 'Hi, what is your name?');
   greeting.position(20, 5);
 
   textAlign(CENTER);
-  textSize(50);
+  textSize(75);
 }
 
 function greet() {
   var name = input.value();
-  greeting.html('No way I love '+name+' too !');
+  greeting.html('Hi '+name+' !');
   input.value('');
 
   for (var i=0; i<15; i++) {
@@ -33,7 +36,7 @@ function greet() {
     stroke(0,0,0);
     fill(r, g, b, 127);
     translate(random(width), random(height));
-    rotate(random(2*PI));
+    rotate(random(3*PI));
     text(name, 0, 0);
     pop();
   }
