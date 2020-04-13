@@ -6,7 +6,7 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('images/blueridgecover.jpg');
+  background-image: url('images/blueridgecoversm.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,13 +24,6 @@
 
 #maptext {
     background:	rgb(256,256,256,.75)
-}
-
-#sectiontitle {
-    background-image: url(images/moundbg-04.svg);
-    background-position: center;
-    background-size: cover;
-    height: 700px;
 }
 
 // model-viewer {
@@ -67,7 +60,7 @@
 .masthead4 {
   height: 100vh;
   min-height: 500px;
-  background-image: url(images/smithmap03.jpg);
+  background-image: url(images/smithmap.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +71,29 @@
 .masthead5 {
   height: 100vh;
   min-height: 500px;
-  background-image: url(images/topo.jpg);
+  background-image: url(images/topowdot.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.masthead6 {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(images/powwow.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.masthead7 {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(images/placeholder.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +115,7 @@ p{
 }
 
 .btn{
-    background-color: #c66b27;
+    background-color: #80cec8;
 }
 
 h2{
@@ -126,5 +141,5 @@ h1{
 
 .jumbotron {
     font-family: 'Crimson Text';
-    font-size: 30px;
+    font-size: 25px;
 }
