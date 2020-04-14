@@ -135,7 +135,12 @@ ul{
 h2{
     border-bottom: 5px solid;
     border-bottom-color: #c66b27;
-    font-family: gineso;
+    font-family: 'gineso';
+}
+
+h6 {
+    font-family: 'Crimson Text';
+    font-size: 15px;
 }
 
 // #titlebox {
