@@ -31,12 +31,8 @@
     height: 350px;
 }
 
-#hill {
-    
-}
-
 .masthead2 {
-  height: 100vh;
+  height: 110vh;
   min-height: 500px;
   background-image: url(images/JamesRiver.jpeg);
   background-size: cover;
@@ -58,18 +54,18 @@
 }
 
 .masthead4 {
-  height: 100vh;
+  height: 110vh;
   min-height: 500px;
   background-image: url(images/smithmap.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
 }
 
 .masthead5 {
-  height: 100vh;
+  height: 120vh;
   min-height: 500px;
   background-image: url(images/topowdot.jpg);
   background-size: cover;
@@ -101,10 +97,28 @@
 
 }
 
+.masthead8 {
+  height: 150vh;
+  min-height: 500px;
+  background-image: url(images/mound%202.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
 p{
     text-align: justify;
     font-family: 'Crimson Text';
     font-size: 20px;
+}
+
+ul{
+    text-align: left;
+    font-family: 'Crimson Text';
+    font-size: 20px;
+    list-style-type: none;
 }
 
 .grid-container{
