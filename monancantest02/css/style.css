@@ -3,6 +3,16 @@
   src: url(../fonts/GinesoCondBold.otf);
 }
 
+@font-face {
+  font-family: tangerine;
+  src: url(../fonts/Tangerine.ttf);
+}
+
+@font-face {
+  font-family: tangerine-bold;
+  src: url(../fonts/Tangerine-Bold.ttf);
+}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -99,6 +109,11 @@
 
 }
 
+.quote {
+    font-family: 'tangerine-bold';
+    font-size: 45px;
+}
+
 p{
     text-align: justify;
     font-family: 'Crimson Text';
@@ -139,11 +154,6 @@ h6 {
 .figure-caption{
     font-family: 'Crimson Text';
     font-size: 15px;
-}
-
-.jumbotron {
-    font-family: 'Crimson Text';
-    font-size: 25px;
 }
 
 .btn{
