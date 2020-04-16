@@ -44,7 +44,7 @@
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1.5rem;
+  font-size: 22px;
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -75,7 +75,7 @@
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(197,70,1,.75);
+  background: #c66b27;
   line-height: 50px;
   z-index: 999;
 }
@@ -85,5 +85,5 @@
 }
 
 .menu-toggle:hover {
-  background: rgba(197,70,1)
+  background: #c66b27;
 }
