@@ -90,9 +90,9 @@
 .masthead7 {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../images/vatomi);
+  background-image: url(../images/vatomi02.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
