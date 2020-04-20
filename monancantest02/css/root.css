@@ -11045,7 +11045,7 @@ h6 {
 
 a:visited {
   position: relative;
-  color: #c64600;
+  //color: #c64600;
   cursor: pointer;
 }
 
@@ -11064,7 +11064,7 @@ span {
   font-weight: 400;
 }
 
-p {
+//p {
   margin-bottom: 2.0em;
 }
 
@@ -11500,7 +11500,7 @@ figure {
 /************************************** BEGIN HEADER */
 .header {
   display: block;
-  border-bottom: 1px solid #e5e1e6;
+  border-bottom: 0px solid #e5e1e6;
   -webkit-box-shadow: 0 0 10px #e5e1e6;
           box-shadow: 0 0 10px #e5e1e6;
   overflow: hidden;
