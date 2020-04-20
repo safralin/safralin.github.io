@@ -313,8 +313,8 @@ footer.lib-ft .lib-cc a.fed-link img.fed-img {
 .lib-give .social-icons a.footer-social-links {
   padding: 1em;
   background-color: #8b1f41;
-  width: 25px;      /*adjusted h & w to 25px*/
-  height: 25px;
+  width: 50px;  
+  height: 50px;
   border-radius: 25px;
   margin: 1em;
   display: flex;
@@ -675,10 +675,10 @@ h3.notices-h {
   }
 
   footer.lib-ft .lib-give .social-icons a.footer-social-links {
-    padding: 1em; /*adjusted padding to 1em*/
+    padding: 1.5rem; 
     background-color: #8b1f41;
-    width: 25px; /*adjusted h & w to 25px*/
-    height: 25px;
+    width: 50px; 
+    height: 50px;
     border-radius: 25px;
   }
 
