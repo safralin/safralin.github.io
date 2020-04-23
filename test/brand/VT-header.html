@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Begin copying links here-->
+    <link rel="shortcut icon" href="//assets.cms.vt.edu/favicon/favicon.ico">
+
+    <script src="https://www.assets.cms.vt.edu/jquery/archives/jquery-3.3.1.min.js"></script>
+    
+    <script src="https://www.assets.cms.vt.edu/js/popper/archives/1.12.9/popper.min.js"></script>
+    
+    <script src="https://www.assets.cms.vt.edu/bootstrap/archives/4.0.0/dist/js/bootstrap.min.js"></script>
+    
+    <script defer src="https://www.assets.cms.vt.edu/font-awesome/archives-pro/5.6.latest/js/all.min.js"
+        x-cq-linkchecker="skip"></script>
+     
+    <link rel="stylesheet" type="text/css" href="../css/root.css" />
+    <!--End of links to copy here-->
+
+</head>
+<body>
+    <!--Begin copying code for header elements here-->
+    <div id="vt_theme_one" class="vt-home norightcol vt-edu-home">
+        <div class="vt-home">
+            <div class="header">
+                <div class="row vt-one-headerRow">
+                    <header class="col header-col" role="banner">
+                        <div id="vt_logo">
+                            <a class="vt-logo-link" href="https://vt.edu"><img alt="VT Virginia Tech"
+                                    src="https://www.assets.cms.vt.edu/images/logo-maroon-whiteBG.svg" /></a>
+                        </div>
+                        <!-- MAIN NAVIGATION -->
+                        <nav class="col" id="vt_nav" aria-label="Site Menu">
+                            <div class="linkWrapper">
+                                <button class="vt-nav-toggle" aria-controls="vt_main_nav" aria-expanded="false"
+                                    onclick="javascript:navToggle();">
+                                    <span class="vt-nav-toggleLabel">Menu</span>
+                                    <span class="far fa-bars menu-open" aria-hidden="true" focusable="false" role="img"></span>
+                                    <span class="far fa-times menu-close d-none" aria-hidden="true" focusable="false" role="img"></span>
+                                </button>
+                            </div>
+                            <div id="vt_offcanvas_nav" role="group" aria-label="Main Menu Drawer" aria-hidden="true" tabindex="-1">
+                                <ol id="vt_parent_org" class="vt-parent-org" aria-label="Parent Organization and Current Site">
+                                    <li class="vt-currentSiteTitle">
+                                        <a class="vt-currentSiteTitle-link" href="https://vt.edu/" tabindex="-1">Virginia Tech</a>
+                                    </li>
+                                </ol>
+                
+                                <ul id="vt_main_nav" role="presentation" aria-label="Pages in Site">
+                
+                                    <!-- Menu item with children example -->
+                                    <li class="nav-item has-submenu">
+                                        <div class="link-wrapper">
+                                            <a href="#" class="" tabindex="-1">Menu item with children</a>
+                                            <button tabindex="-1" class="fold-icon" onclick="javascript:foldAction(this);"
+                                                aria-expanded="false" aria-label="About Submenu Toggle" aria-controls="about_submenu">
+                                                <span class="far fa-times" focusable="false"></span>
+                
+                                                <!-- !!!!!!!!!!!! -->
+                                                <!-- update "menu item" to be the name of the container link above -->
+                                                <span class="sr-only">Menu item with children Submenu Toggle</span>
+                                                <!-- update "menu item" to be the name of the container link above -->
+                                                <!-- !!!!!!!!!!!! -->
+                                            </button>
+                                        </div>
+                                        <ul class="submenu" id="about_submenu" aria-label="About Submenu">
+                                            <li class="nav-item">
+                                                <a href="#" tabindex="-1">Child menu item</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                
+                
+                                    <!-- Single menu item example -->
+                                    <li class="nav-item">
+                                        <div class="link-wrapper"><a href="#" tabindex="-1">Single Menu Item</a></div>
+                                    </li>
+                
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- END MAIN NAVIGATION -->
+                    </header>
+                </div>
+                <nav aria-label="Page Context" class="vt-page-path row">
+                    <div class="gateway">
+                        <ol id="vt_navtrail" class="long_title vt-breadcrumbs">
+                            <li class="vt-breadcrumbs-item">
+                                <a 
+                                    class="vt-breadcrumbs-link" 
+                                    href="https://www.lib.vt.edu/">University Libraries
+                                </a>
+                                <span class="breadcrumb-slash" aria-hidden="true"> / </span>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/one.js"></script>
+    <!--End of code to copy-->
+</body>
+</html>
