@@ -84,31 +84,31 @@
                                 <ul id="vt_main_nav" role="presentation" aria-label="Pages in Site">            
                 
                                     <!-- Single menu item example -->
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#top" tabindex="-1">The Land Speaks</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#mound-culture" tabindex="-1">Mound Culture</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#everyday-life" tabindex="-1">Everyday Life</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#survival" tabindex="-1">Survival under colonialism</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#trade" tabindex="-1">Flourishing through trade</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#invisible" tabindex="-1">Invisible in America</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#monacan" tabindex="-1">The Monacan Indian Nation</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#poem" tabindex="-1">The Naming</a></div>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item" onclick="javascript:navToggle();">
                                         <div class="link-wrapper"><a href="#credits" tabindex="-1">Credits</a></div>
                                     </li>
                                     
@@ -556,7 +556,10 @@ the storyteller shifting the present.<br></p>
 
 </section>
       
-
+<!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#">
+    <i class="fas fa-angle-up"></i>
+  </a>
     
     <!-- Loads <model-viewer> for modern browsers: -->
     <script type="module"
@@ -568,6 +571,8 @@ the storyteller shifting the present.<br></p>
     </script>
       
     <script type="text/javascript" src="js/one.js"></script>
+    <script type="text/javascript" src="js/stylish-portfolio.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script> 
     
 <!--Begin copying code for footer elements here.-->
     <footer class="lib-ft">
