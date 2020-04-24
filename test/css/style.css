@@ -184,3 +184,8 @@ h6 {
 .scroll-to-top i {
   font-weight: 800;
 }
+
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
